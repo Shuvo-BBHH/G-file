@@ -123,7 +123,7 @@ class Mahdi:
 		if MAHDI in ["3", "03"]:
 			os.system('am start https://wa.me/+8801616406924')
 		if MAHDI in ["E", "e"]:
-      os.system("cd $HOME && clear")
+                        os.system("cd $HOME && clear")
 		else:
 			print (" Select Correctly ")
 			time.sleep(1)
