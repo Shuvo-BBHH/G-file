@@ -225,9 +225,7 @@ def bsn_menu():
     pepek = input(' Select : ')
     if pepek in['1','01']:
         __bsn__().bilo(id)
-    elif pepek in ['2','02']
-       os.system('am start https://wa.me/+8801616406924')
-
+    
             
 
 class __bsn__:
